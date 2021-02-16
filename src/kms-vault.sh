@@ -31,7 +31,7 @@ COMMANDS=( "aws" "jq" )
 # but without that they definately will not.                                       #
 # -------------------------------------------------------------------------------- #
 
-list_ksm_aliases()
+function list_ksm_aliases
 {
     local ALIAS_COUNT=1
 
@@ -59,10 +59,10 @@ list_ksm_aliases()
 # the contents.                                                                    #
 # -------------------------------------------------------------------------------- #
 
-decrypt_file()
+function decrypt_file()
 {
-    ciphertext_path=$1
-    output_filename=$2
+    ciphertext_path="${1:-}"
+    output_filename="${2:-}"
 
     if ! [[ -f "${ciphertext_path}" ]]; then
         fail "File ${ciphertext_path} not found - aborting decryption"
@@ -84,11 +84,11 @@ decrypt_file()
 # encrypt the contents.                                                            #
 # -------------------------------------------------------------------------------- #
 
-encrypt_file()
+function encrypt_file()
 {
-    plaintext_path=$1
-    key_alias=$2
-    output_filename=$3
+    plaintext_path="${1:-}"
+    key_alias="${2:-}"
+    output_filename="${3:-}"
 
     if ! [[ -f "${plaintext_path}" ]]; then
         fail "File ${plaintext_path} not found - aborting encryption"
@@ -147,7 +147,7 @@ encrypt_file()
 # NOTE: Do NOT use fail for the error messages are it requires colour!             #
 # -------------------------------------------------------------------------------- #
 
-check_colours()
+function check_colours
 {
     local ncolors
 
@@ -186,7 +186,7 @@ check_colours()
 # If required ensure the script is running as the root user.                       #
 # -------------------------------------------------------------------------------- #
 
-check_root()
+function check_root
 {
     if [[ "${NEED_ROOT}" = true ]]; then
         if [[ $EUID -ne 0 ]]; then
@@ -201,9 +201,13 @@ check_root()
 # A simple wrapper function to give an error and then exitthe script.              #
 # -------------------------------------------------------------------------------- #
 
-abort_script()
+function abort_script()
 {
-    fail "${1}"
+    message="${1:-}"
+
+    if [[ -n "${message}" ]]; then
+        fail "${message}"
+    fi
     exit 1
 }
 
@@ -212,6 +216,7 @@ abort_script()
 # -------------------------------------------------------------------------------- #
 # Show the user a success message.                                                 #
 # -------------------------------------------------------------------------------- #
+
 function success()
 {
     local message="${1:-}"
@@ -226,6 +231,7 @@ function success()
 # -------------------------------------------------------------------------------- #
 # Show the user a warning message.                                                 #
 # -------------------------------------------------------------------------------- #
+
 function warn()
 {
     local message="${1:-}"
@@ -240,6 +246,7 @@ function warn()
 # -------------------------------------------------------------------------------- #
 # Show the user a failure message.                                                 #
 # -------------------------------------------------------------------------------- #
+
 function fail()
 {
     local message="${1:-}"
@@ -254,6 +261,7 @@ function fail()
 # -------------------------------------------------------------------------------- #
 # Show the user an information message.                                            #
 # -------------------------------------------------------------------------------- #
+
 function info()
 {
     local message="${1:-}"
@@ -269,7 +277,7 @@ function info()
 # Check to ensure that the prerequisite commmands exist.                           #
 # -------------------------------------------------------------------------------- #
 
-check_prereqs()
+function check_prereqs
 {
     local error_count=0
 
@@ -294,7 +302,7 @@ check_prereqs()
 # This function is used to show the user 'how' to use the script.                  #
 # -------------------------------------------------------------------------------- #
 
-usage()
+function usage()
 {
 cat <<EOF
   Usage: $0 [ -hdel ] [ -k key alias ] [ -f input filename ] [ -o output filename ]
@@ -318,7 +326,7 @@ EOF
 # This is the main processing function where all the processing logic is handled.  #
 # -------------------------------------------------------------------------------- #
 
-process_input()
+function process_input()
 {
     local list_keys=false                                     # Flag for listing keys
     local decrypt=false                                       # Flag for decryption
@@ -400,4 +408,3 @@ process_input "$@"
 # -------------------------------------------------------------------------------- #
 # This is the end - nothing more to see here.                                      #
 # -------------------------------------------------------------------------------- #
-
