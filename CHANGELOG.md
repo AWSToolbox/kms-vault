@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Add a new travis job to run github-linguist for information only [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Update travis RVN versions and slack config [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Add a new travis job to run github-linguist for information only [`[0580a34]`](https://github.com/AWSToolbox/kms-vault/commit/0580a34973ea60cdbecb0ece1088f2f382ace6f5)
 
 ### [v0.1.0](https://github.com/AWSToolbox/kms-vault/releases/v0.1.0)
 
