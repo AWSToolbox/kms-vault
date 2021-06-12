@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Changes added (were lost on test branch) [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Update travis slack integration due to new slack organisation [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Changes added (were lost on test branch) [`[ac52eeb]`](https://github.com/AWSToolbox/kms-vault/commit/ac52eebebff3e20b53b0166d50857e55d4748411)
 
 - Update travis RVN versions and slack config [`[1f7a0f3]`](https://github.com/AWSToolbox/kms-vault/commit/1f7a0f3a75ee04c9957be4dddd3b4fe6633c106f)
 
