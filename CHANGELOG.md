@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - Rebrand [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
 
+- Rebrand [`[6f51acc]`](https://github.com/AWSToolbox/kms-vault/commit/6f51acc7fea273422d58632372ed90c52b20b5a6)
+
 - Update travis slack integration due to new slack organisation [`[4f06acd]`](https://github.com/AWSToolbox/kms-vault/commit/4f06acd137aad96ad83e582059737d73b1c88438)
 
 - Changes added (were lost on test branch) [`[ac52eeb]`](https://github.com/AWSToolbox/kms-vault/commit/ac52eebebff3e20b53b0166d50857e55d4748411)
