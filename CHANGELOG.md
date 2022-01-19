@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Rebrand [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Add sonarcloud [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Rebrand [`[2da588d]`](https://github.com/AWSToolbox/kms-vault/commit/2da588d4cb3ce12dc0621058706177a64d294b78)
 
 - Rebrand [`[d4e1241]`](https://github.com/AWSToolbox/kms-vault/commit/d4e124164b724ef58f4444aa082397fef2fa49f1)
 
