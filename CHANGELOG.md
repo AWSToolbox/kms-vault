@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - Fix slack to only push on master [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
 
+- Fix slack to only push on master [`[50d6e8a]`](https://github.com/AWSToolbox/kms-vault/commit/50d6e8ae29465d2ab9c8c6cd1b62dc5a5d4d696d)
+
 - Bump actions/checkout from 2 to 3 [`[#2]`](https://github.com/AWSToolbox/kms-vault/pull/2)
 
 - Bump dependabot/fetch-metadata from 1.1.1 to 1.3.3 [`[#1]`](https://github.com/AWSToolbox/kms-vault/pull/1)

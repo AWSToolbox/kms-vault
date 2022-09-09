@@ -39,14 +39,13 @@ jobs:
         run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/yaml-lint/master/pipeline.sh)
 
   slack-workflow-status:
-    if: always()
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     name: Slack Post Workflow Notification
     needs:
       - awesomebot
       - shellcheck
       - yaml-lint
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     steps:
       - name: Slack Workflow Notifications
         uses: Gamesight/slack-workflow-status@v1.1.0
