@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Remove old pipeline [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Workflows [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Remove old pipeline [`[ceee94a]`](https://github.com/AWSToolbox/kms-vault/commit/ceee94a94c2db0a8b9e01a62ec678efc00e253c8)
 
 - Fix slack to only push on master [`[d778ae6]`](https://github.com/AWSToolbox/kms-vault/commit/d778ae6447d41f9e014823ddc5bb1bf78a88650f)
 
