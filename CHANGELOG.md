@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- remove sonarcloud [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Update workflows [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- remove sonarcloud [`[0e6d55e]`](https://github.com/AWSToolbox/kms-vault/commit/0e6d55eee8cf1d2e68c493ff3c1da4097c7134cf)
 
 - Add sonarcloud [`[5368107]`](https://github.com/AWSToolbox/kms-vault/commit/5368107bde1126ad69ba28c898f9a83e17c10192)
 
