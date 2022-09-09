@@ -7,7 +7,29 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Update workflows [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Fix slack to only push on master [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Bump actions/checkout from 2 to 3 [`[#2]`](https://github.com/AWSToolbox/kms-vault/pull/2)
+
+- Bump dependabot/fetch-metadata from 1.1.1 to 1.3.3 [`[#1]`](https://github.com/AWSToolbox/kms-vault/pull/1)
+
+Bumps [dependabot/fetch-metadata](https://github.com/dependabot/fetch-metadata) from 1.1.1 to 1.3.3.
+- [Release notes](https://github.com/dependabot/fetch-metadata/releases)
+- [Commits](https://github.com/dependabot/fetch-metadata/compare/v1.1.1...v1.3.3)
+
+---
+updated-dependencies:
+- dependency-name: dependabot/fetch-metadata
+ dependency-type: direct:production
+ update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- Update workflows [`[6c707eb]`](https://github.com/AWSToolbox/kms-vault/commit/6c707eb0b660c9e4bff83e696c234e23b2699596)
 
 - remove sonarcloud [`[0e6d55e]`](https://github.com/AWSToolbox/kms-vault/commit/0e6d55eee8cf1d2e68c493ff3c1da4097c7134cf)
 

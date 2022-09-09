@@ -46,9 +46,9 @@ jobs:
       - shellcheck
       - yaml-lint
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     steps:
       - name: Slack Workflow Notifications
-        if: github.event_name != 'pull_request'
         uses: Gamesight/slack-workflow-status@v1.1.0
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
