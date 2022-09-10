@@ -3,8 +3,8 @@
         <img src="https://cdn.wolfsoftware.com/assets/images/github/organisations/awstoolbox/black-and-white-circle-256.png" alt="AWSToolbox logo" />
     </a>
     <br />
-    <a href="https://github.com/AWSToolbox/kms-vault/actions/workflows/pipeline.yml">
-        <img src="https://img.shields.io/github/workflow/status/AWSToolbox/kms-vault/pipeline/master?style=for-the-badge" alt="Github Build Status">
+    <a href="https://github.com/AWSToolbox/kms-vault/actions/workflows/cicd-pipeline.yml">
+        <img src="https://img.shields.io/github/workflow/status/AWSToolbox/kms-vault/CICD%20Pipeline/master?style=for-the-badge" alt="Github Build Status">
     </a>
     <a href="https://github.com/AWSToolbox/kms-vault/releases/latest">
         <img src="https://img.shields.io/github/v/release/AWSToolbox/kms-vault?color=blue&label=Latest%20Release&style=for-the-badge" alt="Release">

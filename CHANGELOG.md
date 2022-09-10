@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Workflows [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Fix build link [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Workflows [`[d700bb2]`](https://github.com/AWSToolbox/kms-vault/commit/d700bb2ff1621c17beb14e15c224a83cfd8e6221)
 
 - Remove old pipeline [`[ceee94a]`](https://github.com/AWSToolbox/kms-vault/commit/ceee94a94c2db0a8b9e01a62ec678efc00e253c8)
 
