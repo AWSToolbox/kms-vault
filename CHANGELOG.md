@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- Add greetings [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- added caretaker.yml [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+
+- Add greetings [`[cedf7fd]`](https://github.com/AWSToolbox/kms-vault/commit/cedf7fd9b74170f295c73e695e299aebe5b28f4b)
 
 - Fix build link [`[8d421f2]`](https://github.com/AWSToolbox/kms-vault/commit/8d421f2801816e2ad5fb041c229b026fb2a77971)
 
