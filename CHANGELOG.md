@@ -7,7 +7,47 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
-- added caretaker.yml [`[head]`](https://github.com/AWSToolbox/kms-vault/commit/)
+- Bump actions/stale from 5 to 6 [`[#3]`](https://github.com/AWSToolbox/kms-vault/pull/3)
+
+- Bump dependabot/fetch-metadata from 1.3.4 to 1.3.5 [`[#5]`](https://github.com/AWSToolbox/kms-vault/pull/5)
+
+Bumps [dependabot/fetch-metadata](https://github.com/dependabot/fetch-metadata) from 1.3.4 to 1.3.5.
+- [Release notes](https://github.com/dependabot/fetch-metadata/releases)
+- [Commits](https://github.com/dependabot/fetch-metadata/compare/v1.3.4...v1.3.5)
+
+---
+updated-dependencies:
+- dependency-name: dependabot/fetch-metadata
+ dependency-type: direct:production
+ update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- Bump dependabot/fetch-metadata from 1.3.3 to 1.3.4 [`[#4]`](https://github.com/AWSToolbox/kms-vault/pull/4)
+
+Bumps [dependabot/fetch-metadata](https://github.com/dependabot/fetch-metadata) from 1.3.3 to 1.3.4.
+- [Release notes](https://github.com/dependabot/fetch-metadata/releases)
+- [Commits](https://github.com/dependabot/fetch-metadata/compare/v1.3.3...v1.3.4)
+
+---
+updated-dependencies:
+- dependency-name: dependabot/fetch-metadata
+ dependency-type: direct:production
+ update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- chore: caretaker action [`[cfb4791]`](https://github.com/AWSToolbox/kms-vault/commit/cfb4791fd785e329363293682d50268463876916)
+
+- added caretaker.yml [`[2cb5f93]`](https://github.com/AWSToolbox/kms-vault/commit/2cb5f935660572455685a5686fc149ee50d9f6f2)
 
 - Add greetings [`[cedf7fd]`](https://github.com/AWSToolbox/kms-vault/commit/cedf7fd9b74170f295c73e695e299aebe5b28f4b)
 
