@@ -7,6 +7,28 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/AWSToolbox/kms-vault/compare/v0.1.1...HEAD)
 
+- Bump actions/stale from 6 to 7 [`[#6]`](https://github.com/AWSToolbox/kms-vault/pull/6)
+
+- Bump Gamesight/slack-workflow-status from 1.1.0 to 1.2.0 [`[#7]`](https://github.com/AWSToolbox/kms-vault/pull/7)
+
+Bumps [Gamesight/slack-workflow-status](https://github.com/Gamesight/slack-workflow-status) from 1.1.0 to 1.2.0.
+- [Release notes](https://github.com/Gamesight/slack-workflow-status/releases)
+- [Commits](https://github.com/Gamesight/slack-workflow-status/compare/v1.1.0...v1.2.0)
+
+---
+updated-dependencies:
+- dependency-name: Gamesight/slack-workflow-status
+ dependency-type: direct:production
+ update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- chore: caretaker action [`[986df25]`](https://github.com/AWSToolbox/kms-vault/commit/986df25a9f00024acf6742cb68e6406468456f83)
+
 - Bump actions/stale from 5 to 6 [`[#3]`](https://github.com/AWSToolbox/kms-vault/pull/3)
 
 - Bump dependabot/fetch-metadata from 1.3.4 to 1.3.5 [`[#5]`](https://github.com/AWSToolbox/kms-vault/pull/5)
